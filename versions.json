@@ -1,0 +1,15 @@
+{
+  "produit": "FactExpert",
+  "latest": "7.30.2",
+  "tag": "v7.30.2",
+  "date": "2026-09-16",
+  "telecharger": {
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-Setup-7.30.2.exe",
+    "windows_taille": 125885338,
+    "mac_arm64": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-7.30.2-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-7.30.2-x64.dmg",
+    "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
+  },
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/SHA256SUMS.txt",
+  "nouveautes": []
+}
