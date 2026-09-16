@@ -1,29 +1,30 @@
 {
   "produit": "FactExpert",
-  "latest": "7.30.3",
-  "tag": "v7.30.3",
+  "latest": "7.32.0",
+  "tag": "v7.32.0",
   "date": "2026-09-16",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.3/FactExpert-Setup-7.30.3.exe",
-    "windows_taille": 125886130,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.32.0/FactExpert-Setup-7.32.0.exe",
+    "windows_taille": 125886254,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.32.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Sécurité",
       "items": [
-        "Détection de retour d'horloge : le logiciel mémorise le dernier temps vu",
-        "Essai à triple ancre : l'essai gratuit est désormais prouvé par trois",
-        "Migration automatique : les essais démarrés avant cette version sont"
+        "Contournement réel fermé : les modes internes de test (`--smoke`,",
+        "Anti-inspection : un port de débogage distant injecté au lancement",
+        "SECURITY.md public : politique de sécurité, protections intégrées et",
+        "README : nouvelle section détaillée « 🛡 Sécurité & anti-contournement"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "87 tests unitaires · 180 vérifications smoke (2 nouvelles sur la"
+        "87 tests · 178 vérifications smoke · TypeScript 0 erreur"
       ]
     }
   ]
