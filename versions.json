@@ -2,7 +2,7 @@
   "produit": "FactExpert",
   "latest": "7.30.2",
   "tag": "v7.30.2",
-  "date": "2026-09-16",
+  "date": "2026-09-14",
   "telecharger": {
     "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-Setup-7.30.2.exe",
     "windows_taille": 125885338,
@@ -11,5 +11,26 @@
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
   "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/SHA256SUMS.txt",
-  "nouveautes": []
+  "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Pagination professionnelle : les PDF et documents multi-pages affichent",
+        "Tampon « PAYÉ » : une facture soldée porte le tampon vert horodaté",
+        "Exemplaires : Original / Duplicata copie client / Copie vendeur —",
+        "Densité d'impression : mode « Compacte » (marges et texte réduits)",
+        "Taille du logo : petite / moyenne / grande — chacun calibre son en-tête",
+        "Papier à en-tête personnalisé : importez le papier en-tête A4 de votre",
+        "Colonne Remise masquée automatiquement quand aucune ligne n'en a",
+        "Imprimante par type de document : une imprimante pour les factures &",
+        "Impression automatique à la validation (option) et aperçu obligatoire"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "87 tests unitaires · 178 vérifications smoke · TypeScript 0 erreur"
+      ]
+    }
+  ]
 }
