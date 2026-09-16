@@ -1,35 +1,29 @@
 {
   "produit": "FactExpert",
-  "latest": "7.30.2",
-  "tag": "v7.30.2",
-  "date": "2026-09-14",
+  "latest": "7.31.0",
+  "tag": "v7.31.0",
+  "date": "2026-09-16",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-Setup-7.30.2.exe",
-    "windows_taille": 125885338,
-    "mac_arm64": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-7.30.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/FactExpert-7.30.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.31.0/FactExpert-Setup-7.31.0.exe",
+    "windows_taille": 125886183,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.30.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.31.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Pagination professionnelle : les PDF et documents multi-pages affichent",
-        "Tampon « PAYÉ » : une facture soldée porte le tampon vert horodaté",
-        "Exemplaires : Original / Duplicata copie client / Copie vendeur —",
-        "Densité d'impression : mode « Compacte » (marges et texte réduits)",
-        "Taille du logo : petite / moyenne / grande — chacun calibre son en-tête",
-        "Papier à en-tête personnalisé : importez le papier en-tête A4 de votre",
-        "Colonne Remise masquée automatiquement quand aucune ligne n'en a",
-        "Imprimante par type de document : une imprimante pour les factures &",
-        "Impression automatique à la validation (option) et aperçu obligatoire"
+        "Détection de retour d'horloge : le logiciel mémorise le dernier temps vu",
+        "Essai à triple ancre : l'essai gratuit est désormais prouvé par trois",
+        "Migration automatique : les essais démarrés avant cette version sont"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "87 tests unitaires · 178 vérifications smoke · TypeScript 0 erreur"
+        "87 tests unitaires · 180 vérifications smoke (2 nouvelles sur la"
       ]
     }
   ]
