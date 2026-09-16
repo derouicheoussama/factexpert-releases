@@ -1,30 +1,34 @@
 {
   "produit": "FactExpert",
-  "latest": "7.32.0",
-  "tag": "v7.32.0",
+  "latest": "7.33.0",
+  "tag": "v7.33.0",
   "date": "2026-09-16",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.32.0/FactExpert-Setup-7.32.0.exe",
-    "windows_taille": 125886254,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.33.0/FactExpert-Setup-7.33.0.exe",
+    "windows_taille": 125897793,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.32.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.33.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité",
+      "titre": "Performance",
       "items": [
-        "Contournement réel fermé : les modes internes de test (`--smoke`,",
-        "Anti-inspection : un port de débogage distant injecté au lancement",
-        "SECURITY.md public : politique de sécurité, protections intégrées et",
-        "README : nouvelle section détaillée « 🛡 Sécurité & anti-contournement"
+        "Démarrage plus rapide : chaque module est désormais chargé à la"
+      ]
+    },
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Objectif de CA du mois (Paramètres → Préférences) : fixez votre objectif,",
+        "Mémoire des prix par client : dans l'éditeur de document, le bouton 🏗"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "87 tests · 178 vérifications smoke · TypeScript 0 erreur"
+        "87 tests unitaires · 180 vérifications smoke · E2E Playwright ·"
       ]
     }
   ]
