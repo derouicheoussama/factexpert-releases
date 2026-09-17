@@ -1,30 +1,30 @@
 {
   "produit": "FactExpert",
-  "latest": "7.35.0",
-  "tag": "v7.35.0",
+  "latest": "7.36.0",
+  "tag": "v7.36.0",
   "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.35.0/FactExpert-Setup-7.35.0.exe",
-    "windows_taille": 125901611,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.36.0/FactExpert-Setup-7.36.0.exe",
+    "windows_taille": 125897846,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.35.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.36.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé   je n'ai jamais vu le QR",
       "items": [
-        "Connexion par empreinte digitale : après activation, l'écran de",
-        "Déverrouillage Ctrl+L par empreinte : l'écran de verrouillage propose",
-        "Activation sécurisée : Paramètres → Sécurité → « 🖐 Empreinte digitale »",
-        "Désactivation possible à tout moment (retour au mot de passe classique)"
+        "Bug bloquant trouvé : le calcul du QR de paiement était placé après",
+        "RIP pré-rempli partout : les coordonnées par défaut de l'éditeur",
+        "QR de contrôle activé par défaut (incohérence moteur/interface corrigée)",
+        "Vérifié de bout en bout : facture générée avec le vrai moteur → 2 QR"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "87 tests unitaires · 181 vérifications smoke · TypeScript 0 erreur ·"
+        "186 vérifications smoke (6 nouvelles : QR contrôle, QR paiement,"
       ]
     }
   ]
