@@ -1,33 +1,30 @@
 {
   "produit": "FactExpert",
-  "latest": "7.34.0",
-  "tag": "v7.34.0",
-  "date": "2026-09-17",
+  "latest": "7.35.0",
+  "tag": "v7.35.0",
+  "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.34.0/FactExpert-Setup-7.34.0.exe",
-    "windows_taille": 125899956,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.35.0/FactExpert-Setup-7.35.0.exe",
+    "windows_taille": 125901611,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.34.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.35.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Contrats à remplir directement (Impressions → « 📝 Contrats ») :",
-        "Contrat de travail (CDI) — conforme à la structure du Code du travail",
-        "Contrat de prestation de services — objet, prestations détaillées,",
-        "Contrat libre — titre, parties et clauses entièrement personnalisables",
-        "Champs à taper sur pointillés : chaque champ rempli s'imprime en gras,",
-        "Préremplissage automatique : vos saisies sont mémorisées — le prochain",
-        "Aperçu, impression directe et PDF — sur votre papier à en-tête si"
+        "Connexion par empreinte digitale : après activation, l'écran de",
+        "Déverrouillage Ctrl+L par empreinte : l'écran de verrouillage propose",
+        "Activation sécurisée : Paramètres → Sécurité → « 🖐 Empreinte digitale »",
+        "Désactivation possible à tout moment (retour au mot de passe classique)"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "87 tests unitaires · 180 vérifications smoke · TypeScript 0 erreur"
+        "87 tests unitaires · 181 vérifications smoke · TypeScript 0 erreur ·"
       ]
     }
   ]
