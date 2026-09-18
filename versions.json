@@ -1,29 +1,30 @@
 {
   "produit": "FactExpert",
-  "latest": "7.37.0",
-  "tag": "v7.37.0",
+  "latest": "7.38.0",
+  "tag": "v7.38.0",
   "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.37.0/FactExpert-Setup-7.37.0.exe",
-    "windows_taille": 125901921,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.0/FactExpert-Setup-7.38.0.exe",
+    "windows_taille": 125902148,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.37.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Encadrés Vendeur et Client côte à côte avec bandeaux colorés : nom,",
-        "NET À PAYER renforcé : bandeau foncé, montant en blanc plus grand,",
-        "Les coordonnées bancaires restent dans leur encadré dédié (activables)"
+        "« table suppliers has no column named updated_at » : l'enregistrement"
       ]
     },
     {
-      "titre": "Optimisé",
+      "titre": "Ajouté",
       "items": [
-        "Hiérarchie de lecture repensée : en-tête → n°/dates → parties → lignes →"
+        "Relances groupées : cochez plusieurs factures impayées →",
+        "Suivi des relances : colonne « Relancé » avec date de dernière",
+        "Filtre d'ancienneté : afficher uniquement les impayés en retard de",
+        "« ✅ Marquer relancé » pour enregistrer une relance faite par téléphone"
       ]
     },
     {
