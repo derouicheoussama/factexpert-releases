@@ -1,30 +1,35 @@
 {
   "produit": "FactExpert",
-  "latest": "7.36.0",
-  "tag": "v7.36.0",
+  "latest": "7.37.0",
+  "tag": "v7.37.0",
   "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.36.0/FactExpert-Setup-7.36.0.exe",
-    "windows_taille": 125897846,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.37.0/FactExpert-Setup-7.37.0.exe",
+    "windows_taille": 125901921,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.36.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.37.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé   je n'ai jamais vu le QR",
+      "titre": "Ajouté",
       "items": [
-        "Bug bloquant trouvé : le calcul du QR de paiement était placé après",
-        "RIP pré-rempli partout : les coordonnées par défaut de l'éditeur",
-        "QR de contrôle activé par défaut (incohérence moteur/interface corrigée)",
-        "Vérifié de bout en bout : facture générée avec le vrai moteur → 2 QR"
+        "Encadrés Vendeur et Client côte à côte avec bandeaux colorés : nom,",
+        "NET À PAYER renforcé : bandeau foncé, montant en blanc plus grand,",
+        "Les coordonnées bancaires restent dans leur encadré dédié (activables)"
+      ]
+    },
+    {
+      "titre": "Optimisé",
+      "items": [
+        "Hiérarchie de lecture repensée : en-tête → n°/dates → parties → lignes →"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "186 vérifications smoke (6 nouvelles : QR contrôle, QR paiement,"
+        "87 tests unitaires · 186 vérifications smoke · TypeScript 0 erreur"
       ]
     }
   ]
