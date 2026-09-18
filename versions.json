@@ -1,30 +1,22 @@
 {
   "produit": "FactExpert",
-  "latest": "7.38.0",
-  "tag": "v7.38.0",
+  "latest": "7.38.1",
+  "tag": "v7.38.1",
   "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.0/FactExpert-Setup-7.38.0.exe",
-    "windows_taille": 125902148,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.1/FactExpert-Setup-7.38.1.exe",
+    "windows_taille": 125902074,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Conformité",
       "items": [
-        "« table suppliers has no column named updated_at » : l'enregistrement"
-      ]
-    },
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Relances groupées : cochez plusieurs factures impayées →",
-        "Suivi des relances : colonne « Relancé » avec date de dernière",
-        "Filtre d'ancienneté : afficher uniquement les impayés en retard de",
-        "« ✅ Marquer relancé » pour enregistrer une relance faite par téléphone"
+        "Entitlements Apple standards déclarés : droits minimaux explicites",
+        "Exécution sans restriction : après la validation initiale du premier"
       ]
     },
     {
