@@ -1,30 +1,29 @@
 {
   "produit": "FactExpert",
-  "latest": "7.40.0",
-  "tag": "v7.40.0",
+  "latest": "7.41.0",
+  "tag": "v7.41.0",
   "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.40.0/FactExpert-Setup-7.40.0.exe",
-    "windows_taille": 126082263,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.41.0/FactExpert-Setup-7.41.0.exe",
+    "windows_taille": 126082361,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.40.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.41.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Amélioré",
       "items": [
-        "Modèle « Élégance » : le plus formel — cadre double filet, typographie",
-        "Modèle « Horizon » : bande latérale colorée pleine hauteur (logo,",
-        "9 modèles de facture au total — chaque client peut toujours avoir son",
-        "Police arabe Cairo embarquée (Google Fonts, licence OFL) : la mention"
+        "Aperçu avant impression 100 % fidèle : partout dans le logiciel",
+        "L'aperçu des contrats (Système → Contrats) ouvre le PDF A4 réel dans",
+        "L'aperçu respecte la maquette finale à 100 % : ce que vous voyez est"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "191 vérifications smoke (+5 : rendu complet des 2 nouveaux modèles,"
+        "192 vérifications smoke (+1 : l'aperçu sert un vrai PDF %PDF·A4) ·"
       ]
     }
   ]
