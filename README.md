@@ -25,18 +25,38 @@
 3. Au premier lancement : créez votre compte, choisissez votre métier, c'est parti
 4. **15 jours d'essai gratuit et complet** — sans carte bancaire
 
-### macOS — installation sans restriction
-1. Ouvrez le `.dmg` et glissez **FactExpert** dans Applications
-2. **Premier lancement uniquement** : clic droit sur FactExpert → **Ouvrir → Ouvrir**
-3. C'est tout : après cette validation initiale, **FactExpert s'exécute normalement à chaque ouverture, sans aucune restriction** — aucune limitation de fonctionnalités, mises à jour automatiques incluses
+### macOS — installation (toutes versions, y compris Sequoia 15)
+1. Ouvrez le `.dmg` et glissez **FactExpert** dans le dossier **Applications**
+2. Ouvrez FactExpert. Si macOS affiche « Apple n'a pas pu vérifier… » ou
+   **« l'application ne peut pas être ouverte (-10661) »**, choisissez UNE des
+   solutions ci-dessous (une seule fois — ensuite tout s'ouvre normalement)
 
-> ℹ️ Le message macOS « Apple n'a pas pu vérifier l'identité du développeur » n'apparaît
-> qu'au premier lancement : c'est la procédure standard des logiciels distribués
-> directement (hors Mac App Store). L'application est signée et respecte les
-> normes techniques Apple (entitlements minimaux : impression, réseau pour les
-> mises à jour, accès aux fichiers que vous choisissez — jamais caméra ni micro).
-> Alternative si un message persiste : Réglages Système → Confidentialité et
-> sécurité → **Ouvrir quand même**.
+**✅ Solution 1 — le bouton officiel (recommandée)**
+Réglages Système → **Confidentialité et sécurité** → descendez jusqu'à la
+section Sécurité → cliquez **« Ouvrir quand même »** → saisissez votre mot de
+passe → **Ouvrir**.
+
+**✅ Solution 2 — une commande (Terminal)**
+Ouvrez Terminal (Applications → Utilitaires) et collez :
+```
+xattr -cr /Applications/FactExpert.app
+```
+puis relancez FactExpert.
+
+**✅ Solution 3 — le réparateur en un double-clic**
+Téléchargez **`REPARER-FACTEXPERT-MAC.command`** (ci-dessous dans les
+fichiers de la version), double-cliquez : il supprime le marquage
+« téléchargé », re-signe localement et ouvre FactExpert.
+
+> ℹ️ **Pourquoi ce message ?** FactExpert est distribué directement (hors Mac
+> App Store) avec une signature locale adéquate ; macOS 15 (Sequoia) marque
+> tout fichier téléchargé « en quarantaine » et a supprimé l'ancien
+> contournement « clic droit → Ouvrir ». La validation ci-dessus se fait
+> **une seule fois** : ensuite FactExpert s'exécute normalement, sans aucune
+> restriction de fonctionnalités. L'application respecte les normes Apple
+> (entitlements minimaux : impression, réseau pour les mises à jour, accès
+> aux fichiers que vous choisissez — jamais caméra ni micro). Vos données
+> ne sont jamais envoyées nulle part : tout reste sur votre Mac.
 
 ## 🔄 Mises à jour automatiques
 
