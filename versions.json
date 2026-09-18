@@ -1,28 +1,36 @@
 {
   "produit": "FactExpert",
-  "latest": "7.38.1",
-  "tag": "v7.38.1",
-  "date": "2026-09-18",
+  "latest": "7.39.0",
+  "tag": "v7.39.0",
+  "date": "2026-09-17",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.1/FactExpert-Setup-7.38.1.exe",
-    "windows_taille": 125902074,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.39.0/FactExpert-Setup-7.39.0.exe",
+    "windows_taille": 125904973,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.38.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.39.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Conformité",
+      "titre": "Ajouté",
       "items": [
-        "Entitlements Apple standards déclarés : droits minimaux explicites",
-        "Exécution sans restriction : après la validation initiale du premier"
+        "G50 pré-rempli : le document d'aide devient un véritable état de",
+        "Compte de résultat SCF : produits (classe 7) − charges (classe 6) issus",
+        "Bilan simplifié : actif (trésorerie, clients, immobilisations) et passif",
+        "Montant en lettres en arabe : sous la ligne française « Arrêtée la"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Sauvegarde secondaire réparée : la copie automatique vers le second"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "87 tests unitaires · 186 vérifications smoke · TypeScript 0 erreur"
+        "96 tests unitaires (+9 : états SCF équilibrés, découvert bancaire, crédit"
       ]
     }
   ]
