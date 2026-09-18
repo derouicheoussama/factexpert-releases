@@ -25,10 +25,18 @@
 3. Au premier lancement : créez votre compte, choisissez votre métier, c'est parti
 4. **15 jours d'essai gratuit et complet** — sans carte bancaire
 
-### macOS
+### macOS — installation sans restriction
 1. Ouvrez le `.dmg` et glissez **FactExpert** dans Applications
-2. Premier lancement : **clic droit sur FactExpert → Ouvrir → Ouvrir**
-3. Si macOS affiche un message bloquant : Réglages Système → Confidentialité et sécurité → **Ouvrir quand même**
+2. **Premier lancement uniquement** : clic droit sur FactExpert → **Ouvrir → Ouvrir**
+3. C'est tout : après cette validation initiale, **FactExpert s'exécute normalement à chaque ouverture, sans aucune restriction** — aucune limitation de fonctionnalités, mises à jour automatiques incluses
+
+> ℹ️ Le message macOS « Apple n'a pas pu vérifier l'identité du développeur » n'apparaît
+> qu'au premier lancement : c'est la procédure standard des logiciels distribués
+> directement (hors Mac App Store). L'application est signée et respecte les
+> normes techniques Apple (entitlements minimaux : impression, réseau pour les
+> mises à jour, accès aux fichiers que vous choisissez — jamais caméra ni micro).
+> Alternative si un message persiste : Réglages Système → Confidentialité et
+> sécurité → **Ouvrir quand même**.
 
 ## 🔄 Mises à jour automatiques
 
