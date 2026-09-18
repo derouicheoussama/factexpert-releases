@@ -1,29 +1,34 @@
 {
   "produit": "FactExpert",
-  "latest": "7.41.0",
-  "tag": "v7.41.0",
+  "latest": "7.42.0",
+  "tag": "v7.42.0",
   "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.41.0/FactExpert-Setup-7.41.0.exe",
-    "windows_taille": 126082361,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.42.0/FactExpert-Setup-7.42.0.exe",
+    "windows_taille": 126082379,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.41.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.42.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Aperçu avant impression vide : le lecteur PDF intégré de Chromium n'était"
+      ]
+    },
     {
       "titre": "Amélioré",
       "items": [
-        "Aperçu avant impression 100 % fidèle : partout dans le logiciel",
-        "L'aperçu des contrats (Système → Contrats) ouvre le PDF A4 réel dans",
-        "L'aperçu respecte la maquette finale à 100 % : ce que vous voyez est"
+        "🖨 Imprimer depuis l'aperçu pour TOUTES les impressions : reçus, relevés,",
+        "Contrats : l'aperçu passe par la même modale PDF A4 exacte (fin de la"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "192 vérifications smoke (+1 : l'aperçu sert un vrai PDF %PDF·A4) ·"
+        "192 vérifications smoke · 96 tests unitaires · E2E · TypeScript 0 erreur"
       ]
     }
   ]
