@@ -1,36 +1,30 @@
 {
   "produit": "FactExpert",
-  "latest": "7.39.0",
-  "tag": "v7.39.0",
-  "date": "2026-09-17",
+  "latest": "7.40.0",
+  "tag": "v7.40.0",
+  "date": "2026-09-18",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.39.0/FactExpert-Setup-7.39.0.exe",
-    "windows_taille": 125904973,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.40.0/FactExpert-Setup-7.40.0.exe",
+    "windows_taille": 126082263,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.39.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.40.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "G50 pré-rempli : le document d'aide devient un véritable état de",
-        "Compte de résultat SCF : produits (classe 7) − charges (classe 6) issus",
-        "Bilan simplifié : actif (trésorerie, clients, immobilisations) et passif",
-        "Montant en lettres en arabe : sous la ligne française « Arrêtée la"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Sauvegarde secondaire réparée : la copie automatique vers le second"
+        "Modèle « Élégance » : le plus formel — cadre double filet, typographie",
+        "Modèle « Horizon » : bande latérale colorée pleine hauteur (logo,",
+        "9 modèles de facture au total — chaque client peut toujours avoir son",
+        "Police arabe Cairo embarquée (Google Fonts, licence OFL) : la mention"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "96 tests unitaires (+9 : états SCF équilibrés, découvert bancaire, crédit"
+        "191 vérifications smoke (+5 : rendu complet des 2 nouveaux modèles,"
       ]
     }
   ]
