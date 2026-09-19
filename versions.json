@@ -1,31 +1,37 @@
 {
   "produit": "FactExpert",
-  "latest": "7.44.1",
-  "tag": "v7.44.1",
+  "latest": "7.45.0",
+  "tag": "v7.45.0",
   "date": "2026-09-19",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.44.1/FactExpert-Setup-7.44.1.exe",
-    "windows_taille": 143343448,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.0/FactExpert-Setup-7.45.0.exe",
+    "windows_taille": 143343726,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.44.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Ajouté",
       "items": [
-        "WhatsApp automatisé de bout en bout — après « 💬 Commander », une",
-        "PayPal par offre — renseignez votre identifiant paypal.me (et",
-        "La carte n'encombre plus l'interface — sans serveur configuré, le",
-        "Configuration réorganisée — groupes « 🅿 PayPal (international) »,",
-        "Sécurité — l'URL du serveur de paiement est validée (http/https"
+        "Clés multi-postes — une seule clé peut désormais autoriser plusieurs",
+        "Badge d'offre dans le logiciel — l'écran Licence et la section À propos",
+        "Studio vendeur amélioré : sélecteur d'offre (Pro/Duo/Business), saisie",
+        "Rétro-compatibilité totale : les clés déjà vendues restent valables à"
+      ]
+    },
+    {
+      "titre": "Robustesse (inchangée et vérifiée par tests)",
+      "items": [
+        "Signature Ed25519 infalsifiable · liaison machine · sceau d'activation",
+        "7 nouveaux tests couvrant : Pro mono-machine, Duo sur 2 PC (refus sur un"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "199 vérifications smoke · 96 tests unitaires · E2E · TypeScript 0 erreur"
+        "199 vérifications smoke · 103 tests unitaires (+7) · E2E · TypeScript 0 erreur"
       ]
     }
   ]
