@@ -1,29 +1,31 @@
 {
   "produit": "FactExpert",
-  "latest": "7.44.0",
-  "tag": "v7.44.0",
+  "latest": "7.44.1",
+  "tag": "v7.44.1",
   "date": "2026-09-19",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.44.0/FactExpert-Setup-7.44.0.exe",
-    "windows_taille": 143342275,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.44.1/FactExpert-Setup-7.44.1.exe",
+    "windows_taille": 143343448,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.44.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.44.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Amélioré",
       "items": [
-        "Virement CCP/BaridiMob guidé pas à pas — cliquez « 🏛 CCP / BaridiMob »",
-        "Activation sans clic — pendant un paiement par carte, FactExpert",
-        "Section d'achat déjà redesignée en 7.43.1 (cartes par offre, prix en"
+        "WhatsApp automatisé de bout en bout — après « 💬 Commander », une",
+        "PayPal par offre — renseignez votre identifiant paypal.me (et",
+        "La carte n'encombre plus l'interface — sans serveur configuré, le",
+        "Configuration réorganisée — groupes « 🅿 PayPal (international) »,",
+        "Sécurité — l'URL du serveur de paiement est validée (http/https"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "199 vérifications smoke · 96 tests unitaires · E2E · TypeScript 0 erreur ·"
+        "199 vérifications smoke · 96 tests unitaires · E2E · TypeScript 0 erreur"
       ]
     }
   ]
