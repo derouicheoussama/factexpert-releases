@@ -1,35 +1,34 @@
 {
   "produit": "FactExpert",
-  "latest": "7.43.0",
-  "tag": "v7.43.0",
+  "latest": "7.43.1",
+  "tag": "v7.43.1",
   "date": "2026-09-19",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.43.0/FactExpert-Setup-7.43.0.exe",
-    "windows_taille": 126087007,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.43.1/FactExpert-Setup-7.43.1.exe",
+    "windows_taille": 143339128,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.43.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.43.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Relances programmées — jalons configurables (par défaut J+3 / J+15 /",
-        "Balance âgée — nouvel onglet Paiements : impayés classés par client et",
-        "Promesses de paiement — notez sur une facture la date promise par le",
-        "Score client — badge ⭐/•/⚠️ sur chaque fiche : calculé sur le CA, le",
-        "Pénalités de retard — taux en DA/jour paramétrable : montant indicatif",
-        "Prévisionnel de trésorerie — nouvel onglet Rapports « 💰 Prévisionnel » :",
-        "Réappro suggéré — bouton Produits : quantités à commander calculées sur",
-        "Verrouillage de période comptable — clôturez un mois (Paramètres →",
-        "Validation administrateur au-dessus d'un seuil — au-delà du montant"
+        "Aperçu avant impression vide — cause profonde identifiée et réparée :",
+        "Nouveau bouton « 📄 Ouvrir le PDF » : ouvre le document dans la"
+      ]
+    },
+    {
+      "titre": "Amélioré",
+      "items": [
+        "Section « À propos » enrichie — nouvelle carte « 🧾 Logiciel, licence"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "199 vérifications smoke (+7 : score, balance âgée, promesses, prévisionnel,"
+        "199 vérifications smoke · 96 tests unitaires · E2E · TypeScript 0 erreur"
       ]
     }
   ]
