@@ -5,9 +5,9 @@
   "date": "2026-09-19",
   "telecharger": {
     "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-Setup-7.45.2.exe",
-    "windows_taille": 127231175,
-    "mac_arm64": null,
-    "mac_intel": null,
+    "windows_taille": 136041600,
+    "mac_arm64": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-7.45.2-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-7.45.2-x64.dmg",
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
   "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/SHA256SUMS.txt",
