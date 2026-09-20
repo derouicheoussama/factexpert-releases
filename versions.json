@@ -1,42 +1,29 @@
 {
   "produit": "FactExpert",
-  "latest": "8.0.0",
-  "tag": "v8.0.0",
+  "latest": "8.0.1",
+  "tag": "v8.0.1",
   "date": "2026-09-20",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.0/FactExpert-Setup-8.0.0.exe",
-    "windows_taille": 136054835,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.1/FactExpert-Setup-8.0.1.exe",
+    "windows_taille": 136055922,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "✍ Signature du client sur l'écran — après validation d'une facture, le",
-        "📈 Rapport Performance commerciale — top clients par CA, top produits",
-        "📝 Journal d'interactions client — notes horodatées et signées",
-        "📱 QR vCard — code QR dans la fiche client : le client le scanne et",
-        "Champs personnalisés sur les documents — définissez vos propres champs",
-        "🔐 Double validation des remises — toute remise supérieure au seuil",
-        "🖨 Ticket automatique en caisse — option : le reçu part directement sur",
-        "💰 Fond de caisse & écarts — saisissez le fond à l'ouverture et le",
-        "Export comptable Sage — le dossier comptable inclut désormais un"
-      ]
-    },
-    {
-      "titre": "Options & sécurité",
-      "items": [
-        "Masquage des prix d'achat pour les utilisateurs non-admin (liste et",
-        "Vérification du mot de passe admin sécurisée (bcrypt, tous comptes admin)"
+        "🇩🇿 Section « Compatibilité Algérie 2026 » dans Paramètres → Système :",
+        "Fiscalité : mentions obligatoires 05-468, TVA 19/9/0, droit de timbre",
+        "Toutes les méthodes de paiement : espèces (timbre auto), chèque,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "203 vérifications smoke (+4) · 103 tests unitaires · E2E complet 32/32 ·"
+        "203 vérifications smoke · 103 tests unitaires · E2E · TypeScript 0 erreur"
       ]
     }
   ]
