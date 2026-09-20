@@ -1,22 +1,47 @@
 {
   "produit": "FactExpert",
-  "latest": "7.45.1",
-  "tag": "v7.45.1",
+  "latest": "7.45.2",
+  "tag": "v7.45.2",
   "date": "2026-09-19",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.1/FactExpert-Setup-7.45.1.exe",
-    "windows_taille": 143343847,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-Setup-7.45.2.exe",
+    "windows_taille": 127231175,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité",
+      "titre": "Sécurité (audit pentest)",
       "items": [
-        "DevTools interdits dans la version installée : F12, Ctrl+Shift+I/J/C ne",
-        "Cette couche s'ajoute à l'arsenal existant : intégrité ASAR embarquée dans"
+        "Restauration de sauvegarde : ADMIN uniquement et refus de toute base",
+        "Création de sauvegarde : session requise — plus d'exfiltration",
+        "Coordonnées de paiement, prix et codes promo : ADMIN uniquement —",
+        "Réparé au passage : la sonde de restauration automatique après"
+      ]
+    },
+    {
+      "titre": "Corrigé (audit fonctionnel)",
+      "items": [
+        "Impayés / Balance âgée / Promesses : plus aucun plafond — au-delà de",
+        "Éditeur : la carte « Payé » affichait 0,00 DA après encaissement",
+        "Menu « 🔔 Relances » ouvrait une page blanche — il ouvre maintenant les",
+        "Les services (sans stock) ne décrémentent plus le stock — fin des"
+      ]
+    },
+    {
+      "titre": "Amélioré (audit design  710 de cohérence)",
+      "items": [
+        "Lignes de factures compactes : barre d'actions horizontale (fini les",
+        "Filtres de période des Rapports : plus jamais coupés à l'écran"
+      ]
+    },
+    {
+      "titre": "Performance (audit mesures réelles)",
+      "items": [
+        "Démarrage mesuré à 475 ms, toutes les requêtes à moins de 5 ms",
+        "Livrable allégé d'environ 45 Mo : sources maps, build legacy de"
       ]
     },
     {
