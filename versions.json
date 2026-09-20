@@ -1,53 +1,42 @@
 {
   "produit": "FactExpert",
-  "latest": "7.45.2",
-  "tag": "v7.45.2",
-  "date": "2026-09-19",
+  "latest": "8.0.0",
+  "tag": "v8.0.0",
+  "date": "2026-09-20",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-Setup-7.45.2.exe",
-    "windows_taille": 136041600,
-    "mac_arm64": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-7.45.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/FactExpert-7.45.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.0/FactExpert-Setup-8.0.0.exe",
+    "windows_taille": 136054835,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v7.45.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité (audit pentest)",
+      "titre": "Ajouté",
       "items": [
-        "Restauration de sauvegarde : ADMIN uniquement et refus de toute base",
-        "Création de sauvegarde : session requise — plus d'exfiltration",
-        "Coordonnées de paiement, prix et codes promo : ADMIN uniquement —",
-        "Réparé au passage : la sonde de restauration automatique après"
+        "✍ Signature du client sur l'écran — après validation d'une facture, le",
+        "📈 Rapport Performance commerciale — top clients par CA, top produits",
+        "📝 Journal d'interactions client — notes horodatées et signées",
+        "📱 QR vCard — code QR dans la fiche client : le client le scanne et",
+        "Champs personnalisés sur les documents — définissez vos propres champs",
+        "🔐 Double validation des remises — toute remise supérieure au seuil",
+        "🖨 Ticket automatique en caisse — option : le reçu part directement sur",
+        "💰 Fond de caisse & écarts — saisissez le fond à l'ouverture et le",
+        "Export comptable Sage — le dossier comptable inclut désormais un"
       ]
     },
     {
-      "titre": "Corrigé (audit fonctionnel)",
+      "titre": "Options & sécurité",
       "items": [
-        "Impayés / Balance âgée / Promesses : plus aucun plafond — au-delà de",
-        "Éditeur : la carte « Payé » affichait 0,00 DA après encaissement",
-        "Menu « 🔔 Relances » ouvrait une page blanche — il ouvre maintenant les",
-        "Les services (sans stock) ne décrémentent plus le stock — fin des"
-      ]
-    },
-    {
-      "titre": "Amélioré (audit design  710 de cohérence)",
-      "items": [
-        "Lignes de factures compactes : barre d'actions horizontale (fini les",
-        "Filtres de période des Rapports : plus jamais coupés à l'écran"
-      ]
-    },
-    {
-      "titre": "Performance (audit mesures réelles)",
-      "items": [
-        "Démarrage mesuré à 475 ms, toutes les requêtes à moins de 5 ms",
-        "Livrable allégé d'environ 45 Mo : sources maps, build legacy de"
+        "Masquage des prix d'achat pour les utilisateurs non-admin (liste et",
+        "Vérification du mot de passe admin sécurisée (bcrypt, tous comptes admin)"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "199 vérifications smoke · 103 tests unitaires · E2E · TypeScript 0 erreur"
+        "203 vérifications smoke (+4) · 103 tests unitaires · E2E complet 32/32 ·"
       ]
     }
   ]
