@@ -17,6 +17,34 @@
 
 > Vérifiez l'intégrité : chaque release inclut `SHA256SUMS.txt`.
 
+## 🇩🇿 Conformité Algérie 2026 — 100 % intégré
+
+| Exigence réglementaire | FactExpert |
+|---|---|
+| Mentions obligatoires — **décret exécutif 05-468** (RC, NIF, NIS, AI…) | ✅ automatiques sur chaque document |
+| **TVA** 19 % / 9 % / 0 % — ligne par ligne + récapitulatif | ✅ automatique |
+| **Droit de timbre — LF 2025/2026** (espèces, barème officiel) | ✅ calcul automatique, exonéré chèque/virement |
+| **G50 mensuelle** (TVA collectée par taux, timbre) | ✅ état pré-rempli + export |
+| **Comptabilité SCF** — journal, grand livre, balance, bilan, compte de résultat | ✅ générés automatiquement |
+| **IFU auto-entrepreneur** (loi 22-23, 0,5 %) | ✅ mode dédié + rapport mensuel |
+| **Numérotation continue** sans rupture + journal chaîné SHA-256 | ✅ anti-falsification |
+| **Facturation électronique LF 2026** | ✅ journal électronique exportable, snapshots scellés |
+
+## 💳 Tous les moyens de paiement algériens — OK
+
+| Méthode | Statut |
+|---|---|
+| 💵 Espèces (timbre calculé automatiquement) | ✅ |
+| 🧾 Chèque (n° + banque tracés, exonéré de timbre) | ✅ |
+| 🏦 Virement / CCP / BaridiMob (QR RIP sur facture) | ✅ |
+| 💳 Carte CIB / Edahabia — SATIM, activation automatique | ✅ |
+| 📲 WhatsApp (commande assistée, clé en 1 clic) | ✅ |
+| 🅿 PayPal (international) | ✅ |
+
+> ⚖️ **100 % local** : vos données restent sur votre ordinateur, scellées (SHA-256),
+> exportables en cas de contrôle DGI. Mises à jour réglementaires incluses,
+> automatiques et gratuites.
+
 ## 🚀 Installation
 
 ### Windows
