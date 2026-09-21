@@ -1,16 +1,16 @@
 {
   "produit": "FactExpert",
-  "latest": "8.1.2",
-  "tag": "v8.1.2",
+  "latest": "8.1.3",
+  "tag": "v8.1.3",
   "date": "2026-09-20",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.2/FactExpert-Setup-8.1.2.exe",
-    "windows_taille": 136063568,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.3/FactExpert-Setup-8.1.3.exe",
+    "windows_taille": 136065318,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.3/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Amélioré",
