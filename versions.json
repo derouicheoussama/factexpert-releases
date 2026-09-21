@@ -1,41 +1,29 @@
 {
   "produit": "FactExpert",
-  "latest": "8.1.0",
-  "tag": "v8.1.0",
+  "latest": "8.1.1",
+  "tag": "v8.1.1",
   "date": "2026-09-20",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.0/FactExpert-Setup-8.1.0.exe",
-    "windows_taille": 136061966,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.1/FactExpert-Setup-8.1.1.exe",
+    "windows_taille": 136062064,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.1/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "🚚 Expédier — marque le colis comme pris en charge par le transporteur",
-        "↩ Retour — demande de retour du colis en 1 clic, avec historique",
-        "📝 Remarques colis — ajoute des remarques horodatées, visibles dans",
-        "🏷 Bordereau colis imprimable — étiquette 10×15 cm avec QR code",
-        "☁ Mise à jour du colis chez le transporteur — modification des",
-        "🗑 Suppression chez le transporteur — avant expédition, le colis est",
-        "📍 Wilayas actives — récupération et cache de la liste des wilayas par",
-        "💰 Grilles tarifaires — tarifs domicile/stopdesk par wilaya via API"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Impayés sans plafond caché (dépassement de 1 000 documents → impayés",
-        "Régression better-sqlite3 (7.45.2) définitivement couverte par le"
+        "Bordereau colis dans l'aperçu intégré — plus de fenêtre pop-up",
+        "Code wilaya automatique — le code wilaya officiel (1-58) est déduit",
+        "La grille tarifaire et la liste des wilayas sont récupérées dynamiquement"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "203 vérifications smoke · 103 tests unitaires · E2E · TypeScript 0 erreur ·"
+        "203 vérifications smoke · 103 tests unitaires · E2E · TypeScript 0 erreur"
       ]
     }
   ]
