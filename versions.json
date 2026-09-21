@@ -1,30 +1,32 @@
 {
   "produit": "FactExpert",
-  "latest": "8.0.4",
-  "tag": "v8.0.4",
+  "latest": "8.0.5",
+  "tag": "v8.0.5",
   "date": "2026-09-20",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.4/FactExpert-Setup-8.0.4.exe",
-    "windows_taille": 136057286,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.5/FactExpert-Setup-8.0.5.exe",
+    "windows_taille": 136059130,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.5/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Amélioré",
       "items": [
-        "Installateur « suivant suivant » complet : nouvelle page d'accueil",
-        "Nouvelles bannières dégradé bleu fennec : en-tête 150×57 et panneau",
-        "Signature de l'installateur en bas de chaque page : « ∞ Infinity Coder —",
-        "Déroulé complet : Accueil → Licence → Dossier → Installation → Fin"
+        "En-tête profil professionnel : bannière dégradée bleu nuit, grand",
+        "Deux onglets clairs :",
+        "« 👤 Profil & contacts » — nom, mobile, email, WhatsApp, avec détection",
+        "« 📊 Mon activité » — dernière connexion, date de création du compte,",
+        "Onglet 🔐 Sécurité enrichi : statut de l'empreinte Windows Hello avec",
+        "Interface bilingue FR/AR complète"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "203 vérifications smoke · TypeScript 0 erreur"
+        "203 vérifications smoke · 103 tests unitaires · E2E · TypeScript 0 erreur"
       ]
     }
   ]
