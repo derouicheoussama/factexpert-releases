@@ -1,23 +1,23 @@
 {
   "produit": "FactExpert",
-  "latest": "8.0.2",
-  "tag": "v8.0.2",
+  "latest": "8.0.3",
+  "tag": "v8.0.3",
   "date": "2026-09-20",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.2/FactExpert-Setup-8.0.2.exe",
-    "windows_taille": 136057299,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.3/FactExpert-Setup-8.0.3.exe",
+    "windows_taille": 136057660,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.0.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Amélioré",
       "items": [
-        "🇩🇿 Section « Compatibilité Algérie 2026 » dans Paramètres → Système :",
-        "Fiscalité : mentions obligatoires 05-468, TVA 19/9/0, droit de timbre",
-        "Toutes les méthodes de paiement : espèces (timbre auto), chèque,"
+        "Éditeur de champs personnalisés refait à neuf (Paramètres → Facturation) :",
+        "Champs typés dans l'éditeur de facture : un champ « Date » affiche un",
+        "Impression soignée : les champs remplis s'affichent dans un bloc"
       ]
     },
     {
