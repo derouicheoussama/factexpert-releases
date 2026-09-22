@@ -1,22 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.1.3",
-  "tag": "v9.1.3",
-  "date": "2026-09-21",
+  "latest": "9.1.4",
+  "tag": "v9.1.4",
+  "date": "2026-09-22",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.3/FactSpeed-Setup-9.1.3.exe",
-    "windows_taille": 136073411,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.4/FactSpeed-Setup-9.1.4.exe",
+    "windows_taille": 136073236,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.4/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "Le titre de la page À propos affichait encore l'ancien nom en deux",
-        "Son sous-titre devient « Facturation & gestion client — ⚡ Facturez vite"
+        "Migration de base encore plus sûre : les fichiers journal (WAL/SHM)",
+        "Liste blanche réseau explicite : les deux seuls appels Internet de",
+        "Test automatique de migration en 5 scénarios (ancienne install,"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "E2E métier complet rejoué : 30/30 étapes, 0 erreur console",
+        "TypeScript 0 erreur · 108 tests unitaires · 204 vérifications smoke"
       ]
     }
   ]
