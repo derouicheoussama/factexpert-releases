@@ -1,40 +1,37 @@
 {
-  "produit": "FactExpert",
-  "latest": "8.1.4",
-  "tag": "v8.1.4",
-  "date": "2026-09-20",
+  "produit": "FactSpeed",
+  "latest": "9.0.0",
+  "tag": "v9.0.0",
+  "date": "2026-09-21",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.4/FactExpert-Setup-8.1.4.exe",
-    "windows_taille": 136064645,
+    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v9.0.0/FactSpeed-Setup-9.0.0.exe",
+    "windows_taille": 136069827,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v8.1.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v9.0.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Nouveau",
       "items": [
-        "Transitions fluides partout : boutons, cartes, tableaux, modales, toasts,",
-        "Animation d'entrée par page : chaque page apparaît en douceur quand",
-        "Squelettes de chargement : les blocs gris animés remplacent les textes",
-        "En-têtes de tableaux collants : quand vous scrollez dans un long",
-        "Survol de tableaux renforcé : la ligne survolée change de couleur",
-        "Feuille de style impression : quand vous imprimez (Ctrl+P), la"
+        "Nouveau nom : FactSpeed — l'application change de nom et d'identité",
+        "Migration automatique des données : au premier lancement, votre base,",
+        "Vos licences restent valables : les clés activées sous l'ancien nom"
       ]
     },
     {
-      "titre": "Robustesse",
+      "titre": "Corrigé",
       "items": [
-        "Anti-double-clic : les boutons de soumission sont protégés contre",
-        "Focus visible sur tous les éléments interactifs pour la navigation",
-        "Indicateur de soumission : les boutons affichent un spinner pendant"
+        "L'email de livraison de licence pointe désormais vers la page de"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "204 vérifications smoke · 103 tests unitaires · E2E · TypeScript 0 erreur"
+        "Ancres d'essai et sceaux de licence conservés à l'identique : la période",
+        "Rotation des sauvegardes automatique qui reconnaît les fichiers des deux",
+        "TypeScript 0 erreur · tests unitaires et vérifications smoke au complet"
       ]
     }
   ]
