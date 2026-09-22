@@ -1,37 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.1.0",
-  "tag": "v9.1.0",
+  "latest": "9.1.1",
+  "tag": "v9.1.1",
   "date": "2026-09-21",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.0/FactSpeed-Setup-9.1.0.exe",
-    "windows_taille": 136072882,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.1/FactSpeed-Setup-9.1.1.exe",
+    "windows_taille": 136073855,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Corrigé",
       "items": [
-        "Migration 100 % FactSpeed : site web (factspeed.app), serveur de",
-        "Migration automatique de votre base : factexpert.db → factspeed.db au"
-      ]
-    },
-    {
-      "titre": "Compatibilité conservée (mécanismes invisibles)",
-      "items": [
-        "Les licences déjà vendues restent valables (ancien identifiant produit",
-        "L'essai en cours et les sceaux anti-fraude sont préservés — pas de",
-        "Les sauvegardes créées par les versions précédentes restent reconnues",
-        "Les liens factexpert.app figurant sur d'anciens documents imprimés"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "TypeScript 0 erreur · 103 tests unitaires · 204 vérifications smoke"
+        "Le domaine de la marque devient factspeed.com partout : écran",
+        "Les anciens liens déjà imprimés sur d'anciens documents restent"
       ]
     }
   ]
