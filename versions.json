@@ -1,29 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.2.6",
-  "tag": "v9.2.6",
-  "date": "2026-09-22",
+  "latest": "9.2.7",
+  "tag": "v9.2.7",
+  "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.6/FactSpeed-Setup-9.2.6.exe",
-    "windows_taille": 136889591,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.7/FactSpeed-Setup-9.2.7.exe",
+    "windows_taille": 136890570,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.6/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.7/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "Rétablit la mise en page du logiciel : depuis la 9.2.2, le menu latéral",
-        "Les règles d'affichage arabe (alignement à droite) sont rétablies"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "Nouveau contrôle qualité : le menu est désormais rendu dans le vrai",
-        "TypeScript 0 erreur · 110 tests · 204 vérifications smoke"
+        "Contrats à remplir : aperçu A4 en TEMPS RÉEL — l'écran se divise en",
+        "Transporteurs : logos officiels dans le formulaire de création —",
+        "Mode d'utilisation : sélection évidente — le mode actif (Simple ou",
+        "Couleur du menu appliquée en TEMPS RÉEL : cliquer une couleur ou"
       ]
     }
   ]
