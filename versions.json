@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.1.6",
-  "tag": "v9.1.6",
+  "latest": "9.1.7",
+  "tag": "v9.1.7",
   "date": "2026-09-22",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.6/FactSpeed-Setup-9.1.6.exe",
-    "windows_taille": 136088473,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.7/FactSpeed-Setup-9.1.7.exe",
+    "windows_taille": 136091103,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.6/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.7/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Corrigé",
       "items": [
-        "Barre de progression bleu FactSpeed pendant l'installation — le vert",
-        "En-tête et panneau de l'installateur fiabilisés : l'art (icône FS +"
+        "Corrige le démarrage de la version 9.1.6 : un fichier interne essentiel",
+        "Garde-fou de build : l'empaqueteur vérifie désormais que TOUS les",
+        "Les sources du processus principal sont de nouveau complètes et lisibles"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Nouveau test garde-fou : les images de l'installateur sont vérifiées",
-        "TypeScript 0 erreur · 110 tests unitaires · 204 vérifications smoke"
+        "TypeScript 0 erreur · 110 tests unitaires (dont migration 5 scénarios et"
       ]
     }
   ]
