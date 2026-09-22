@@ -1,28 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.0.2",
-  "tag": "v9.0.2",
+  "latest": "9.1.0",
+  "tag": "v9.1.0",
   "date": "2026-09-21",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v9.0.2/FactSpeed-Setup-9.0.2.exe",
-    "windows_taille": 136074026,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.0/FactSpeed-Setup-9.1.0.exe",
+    "windows_taille": 136072882,
     "mac_arm64": null,
     "mac_intel": null,
-    "page": "https://github.com/derouicheoussama/factexpert-releases/releases/latest"
+    "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factexpert-releases/releases/download/v9.0.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.1.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Activation par SMS : sur l'écran d'activation, un bouton « 📱 Par SMS »",
-        "Page d'aide & support entièrement repensée (ouverte à la fin de"
+        "Migration 100 % FactSpeed : site web (factspeed.app), serveur de",
+        "Migration automatique de votre base : factexpert.db → factspeed.db au"
       ]
     },
     {
-      "titre": "Corrigé",
+      "titre": "Compatibilité conservée (mécanismes invisibles)",
       "items": [
-        "Pied de page de l'aide clarifié : copyright + site sur une ligne,"
+        "Les licences déjà vendues restent valables (ancien identifiant produit",
+        "L'essai en cours et les sceaux anti-fraude sont préservés — pas de",
+        "Les sauvegardes créées par les versions précédentes restent reconnues",
+        "Les liens factexpert.app figurant sur d'anciens documents imprimés"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "TypeScript 0 erreur · 103 tests unitaires · 204 vérifications smoke"
       ]
     }
   ]
