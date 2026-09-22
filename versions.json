@@ -1,25 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.2.4",
-  "tag": "v9.2.4",
+  "latest": "9.2.5",
+  "tag": "v9.2.5",
   "date": "2026-09-22",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.4/FactSpeed-Setup-9.2.4.exe",
-    "windows_taille": 136888937,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.5/FactSpeed-Setup-9.2.5.exe",
+    "windows_taille": 136889860,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.5/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Nouveau",
       "items": [
-        "Menu latéral repensé avec une structure claire :",
-        "chaque section (Livraison, Pilotage, Ventes, Trésorerie, Catalogue…)",
-        "l'élément actif est une pilule bleue pleine bien visible ",
-        "hauteurs régulières (34 px), survol doux, raccourcis clavier visibles",
-        "vérifié visuellement avant livraison (aperçu rendu dans le vrai moteur"
+        "Payer par Google Pay — directement dans le logiciel : sur chaque offre",
+        "Configuration éditeur : champs « Google Pay » par offre dans",
+        "Navigation de la fenêtre de paiement restreinte aux domaines"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "TypeScript 0 erreur · 110 tests unitaires · 204 vérifications smoke"
       ]
     }
   ]
