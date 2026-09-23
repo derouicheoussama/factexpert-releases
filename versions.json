@@ -1,31 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.3.5",
-  "tag": "v9.3.5",
+  "latest": "9.3.6",
+  "tag": "v9.3.6",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.5/FactSpeed-Setup-9.3.5.exe",
-    "windows_taille": 136643121,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.6/FactSpeed-Setup-9.3.6.exe",
+    "windows_taille": 136644238,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.5/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.6/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Corrigé",
       "items": [
-        "🖨 Impressions repensé de A à Z pour le travail réel de fin de",
-        "Documents regroupés par jour (Aujourd'hui, Hier, date complète)",
-        "Sélection multiple et impression en lot : cochez ce qu'il faut",
-        "4 indicateurs en tête de page : à imprimer, documents du jour,",
-        "Interface vérifiée par 15 assertions Playwright sur l'application"
+        "Bail d'habitation, Vente d'un véhicule et Accord de confidentialité",
+        "Le modèle affiché ne correspondait plus au contrat choisi dès qu'un",
+        "Aperçu qui restait sur l'ancien contrat en basculant rapidement",
+        "Titre du contrat affiché en double dans l'aperçu et le PDF"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 110 tests · 204 smoke"
+        "Nouveau garde-fou : 19 assertions Playwright sur les 6 contrats (bon",
+        "TypeScript 0 erreur · 110 tests · 211 smoke"
       ]
     }
   ]
