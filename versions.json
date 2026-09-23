@@ -1,33 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.2.8",
-  "tag": "v9.2.8",
+  "latest": "9.2.9",
+  "tag": "v9.2.9",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.8/FactSpeed-Setup-9.2.8.exe",
-    "windows_taille": 136375556,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.9/FactSpeed-Setup-9.2.9.exe",
+    "windows_taille": 136636999,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.8/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.9/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Amélioré",
       "items": [
-        "Nouveau logo officiel : le document-« F » à lignes de vitesse et le"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Le générateur d'identité utilise le logo fourni comme source unique"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "TypeScript 0 erreur · 110 tests · 204 smoke"
+        "À propos : le logo horizontal officiel (document-F + FactSpeed +",
+        "Page d'aide & support : le logo FactSpeed apparaît en en-tête"
       ]
     }
   ]
