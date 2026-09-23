@@ -1,29 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.3.1",
-  "tag": "v9.3.1",
+  "latest": "9.3.2",
+  "tag": "v9.3.2",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.1/FactSpeed-Setup-9.3.1.exe",
-    "windows_taille": 136638699,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.2/FactSpeed-Setup-9.3.2.exe",
+    "windows_taille": 136639868,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Corrigé",
       "items": [
-        "📜 Contrats : indicateurs (actifs, expirent sous 30 j, valeur totale),",
-        "🚛 Fournisseurs : indicateurs, formulaire structuré en sections",
-        "Ouverture par métier : si la configuration par activité n'a jamais"
+        "Anti-fuite : le glisser-déposer est bloqué dans toute l'interface et la",
+        "Correctifs cumulés de la 9.3.1 : fichier d'accès base restauré,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 110 tests · 204 smoke · i18n arabe complète"
+        "TypeScript 0 erreur · 110 tests · 204 smoke"
       ]
     }
   ]
