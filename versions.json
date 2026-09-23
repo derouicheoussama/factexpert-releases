@@ -1,21 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.2.11",
-  "tag": "v9.2.11",
+  "latest": "9.2.12",
+  "tag": "v9.2.12",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.11/FactSpeed-Setup-9.2.11.exe",
-    "windows_taille": 136636481,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.12/FactSpeed-Setup-9.2.12.exe",
+    "windows_taille": 136636105,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.11/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.12/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Corrigé",
       "items": [
-        "Bouton « ➕ Nouvelle facture » (Ctrl+N) du menu repensé : icône dans"
+        "Dernières mentions de domaine retirées de l'interface : À propos,",
+        "Les liens et emails continuent de fonctionner en arrière-plan"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "TypeScript 0 erreur · 110 tests · 204 smoke"
       ]
     }
   ]
