@@ -1,22 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.3.4",
-  "tag": "v9.3.4",
+  "latest": "9.3.5",
+  "tag": "v9.3.5",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.4/FactSpeed-Setup-9.3.4.exe",
-    "windows_taille": 136640733,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
+    "windows_taille": null,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.5/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "Menu latéral débloqué : cliquer sur un titre de section (Livraison,",
-        "Vérifié par un nouveau test automatisé Playwright sur l'application"
+        "🖨 Impressions repensé de A à Z pour le travail réel de fin de",
+        "Documents regroupés par jour (Aujourd'hui, Hier, date complète)",
+        "Sélection multiple et impression en lot : cochez ce qu'il faut",
+        "4 indicateurs en tête de page : à imprimer, documents du jour,",
+        "Interface vérifiée par 15 assertions Playwright sur l'application"
       ]
     },
     {
