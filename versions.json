@@ -1,22 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.3.2",
-  "tag": "v9.3.2",
+  "latest": "9.3.3",
+  "tag": "v9.3.3",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.2/FactSpeed-Setup-9.3.2.exe",
-    "windows_taille": 136639868,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.3/FactSpeed-Setup-9.3.3.exe",
+    "windows_taille": 136640569,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "Anti-fuite : le glisser-déposer est bloqué dans toute l'interface et la",
-        "Correctifs cumulés de la 9.3.1 : fichier d'accès base restauré,"
+        "📖 Aide & support refondue en onglets : la page ouverte après",
+        "Identité officielle : les documents imprimés (factures, devis, BL,"
       ]
     },
     {
