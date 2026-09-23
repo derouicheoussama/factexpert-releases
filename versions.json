@@ -1,31 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.3.6",
-  "tag": "v9.3.6",
+  "latest": "9.3.7",
+  "tag": "v9.3.7",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.6/FactSpeed-Setup-9.3.6.exe",
-    "windows_taille": 136644238,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.7/FactSpeed-Setup-9.3.7.exe",
+    "windows_taille": 136646856,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.6/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.7/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Amélioré",
+      "items": [
+        "Installateur redessiné : panneau latéral bleu pleine hauteur avec le"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Bail d'habitation, Vente d'un véhicule et Accord de confidentialité",
-        "Le modèle affiché ne correspondait plus au contrat choisi dès qu'un",
-        "Aperçu qui restait sur l'ancien contrat en basculant rapidement",
-        "Titre du contrat affiché en double dans l'aperçu et le PDF"
+        "Contrats : balises visibles en clair sous le titre (« <span… ») — le"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Nouveau garde-fou : 19 assertions Playwright sur les 6 contrats (bon",
-        "TypeScript 0 erreur · 110 tests · 211 smoke"
+        "TypeScript 0 erreur · 110 tests · 212 smoke"
       ]
     }
   ]
