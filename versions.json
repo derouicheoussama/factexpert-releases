@@ -1,21 +1,21 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.2.10",
-  "tag": "v9.2.10",
+  "latest": "9.2.11",
+  "tag": "v9.2.11",
   "date": "2026-09-23",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.10/FactSpeed-Setup-9.2.10.exe",
-    "windows_taille": 136636388,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.11/FactSpeed-Setup-9.2.11.exe",
+    "windows_taille": 136636481,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.10/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.2.11/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "À propos : plus de texte en double — le logo (qui contient déjà"
+        "Bouton « ➕ Nouvelle facture » (Ctrl+N) du menu repensé : icône dans"
       ]
     }
   ]
