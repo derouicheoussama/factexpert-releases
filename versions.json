@@ -1,33 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.3.7",
-  "tag": "v9.3.7",
-  "date": "2026-09-23",
+  "latest": "9.4.0",
+  "tag": "v9.4.0",
+  "date": "2026-09-24",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.7/FactSpeed-Setup-9.3.7.exe",
-    "windows_taille": 136646856,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.0/FactSpeed-Setup-9.4.0.exe",
+    "windows_taille": 136648849,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.3.7/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Nouveau",
       "items": [
-        "Installateur redessiné : panneau latéral bleu pleine hauteur avec le"
+        "Retenue à la source (art. 260 CT) : taux choisi sur la facture ou la",
+        "TVA déductible sur les dépenses : indiquez le taux (19/9 %) — la TVA"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "Contrats : balises visibles en clair sous le titre (« <span… ») — le"
+        "G50 imprimé : cases TVA à zéro — le détail par taux était lu au",
+        "Les conditions de paiement du client (D30, à réception…) sont imprimées",
+        "La suppression définitive d'un document purge désormais ses écritures"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 110 tests · 212 smoke"
+        "TypeScript 0 erreur · 110 tests · 221 smoke (9 nouvelles vérifications"
       ]
     }
   ]
