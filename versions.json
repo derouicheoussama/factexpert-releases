@@ -1,36 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.4.0",
-  "tag": "v9.4.0",
+  "latest": "9.4.1",
+  "tag": "v9.4.1",
   "date": "2026-09-24",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.0/FactSpeed-Setup-9.4.0.exe",
-    "windows_taille": 136648849,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.1/FactSpeed-Setup-9.4.1.exe",
+    "windows_taille": 136661003,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Retenue à la source (art. 260 CT) : taux choisi sur la facture ou la",
-        "TVA déductible sur les dépenses : indiquez le taux (19/9 %) — la TVA"
+        "Contrat de licence utilisateur final (CLUF) complet : 14 articles",
+        "THIRD-PARTY.txt : mentions obligatoires des logiciels tiers open",
+        "LISEZ-MOI régénéré à chaque build avec la version courante",
+        "Nouveau test de conformité documentaire : clauses obligatoires du"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "G50 imprimé : cases TVA à zéro — le détail par taux était lu au",
-        "Les conditions de paiement du client (D30, à réception…) sont imprimées",
-        "La suppression définitive d'un document purge désormais ses écritures"
+        "README : références à un domaine non officiel supprimées, badges",
+        "Les fichiers légaux (license.txt, THIRD-PARTY.txt) sont désormais"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 110 tests · 221 smoke (9 nouvelles vérifications"
+        "TypeScript 0 erreur · 114 tests · 221 smoke"
       ]
     }
   ]
